@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Homestead has moved</title>
+<meta name="robots" content="noindex">
+<link rel="canonical" href="https://homestead-lab.github.io/homestead/">
+<meta http-equiv="refresh" content="0; url=https://homestead-lab.github.io/homestead/">
+<script>
+  // Keep the rest of the address, so deep links land on the same page.
+  (function () {
+    var m = location.pathname.match(/^\/homestead(\/.*)?$/);
+    var path = m ? (m[1] || "/") : "/";
+    location.replace("https://homestead-lab.github.io/homestead" + path + location.search + location.hash);
+  })();
+</script>
+<style>
+  :root { color-scheme: light dark; }
+  body { font: 16px/1.5 system-ui, sans-serif; max-width: 34rem; margin: 15vh auto; padding: 0 16px; background: Canvas; color: CanvasText; }
+</style>
+</head>
+<body>
+<p>Homestead has moved to <a href="https://homestead-lab.github.io/homestead/">homestead-lab.github.io/homestead</a>.</p>
+<p>The code is now at <a href="https://github.com/homestead-lab/homestead">github.com/homestead-lab/homestead</a>.</p>
+</body>
+</html>
